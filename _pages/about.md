@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: > Transportation Systems | GIS Enthusiast | Creative Designer
+subtitle: Transportation Systems | GIS Enthusiast | Creative Designer
 profile:
   align: right
   image: profile_pic.jpeg
   image_circular: false # crops the image to make it circular
-  more_info: >
+  address:
   
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
