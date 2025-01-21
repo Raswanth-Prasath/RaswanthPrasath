@@ -2,33 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle: Transportation Systems | GIS Enthusiast | Creative Designer
+subtitle:  <a href='https://www.nature.com/articles/nature20563'>Biorhythms</a>, <a href='https://onlinelibrary.wiley.com/doi/full/10.1111/ele.13662'>macroecology & evolution</a>, <a href='https://osf.io/profile/'>open science</a>, <a href='https://www.youtube.com/channel/UCP8ITIDaFZHW68z7KaTyDew'>shorebirds</a>.
 profile:
   align: right
-  image: profile_pic.jpeg
+  image: me_&_kohout_bw_kohout-pop_grey.jpg
   image_circular: false # crops the image to make it circular
-  address:
+  address: >
 
-news: false # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-I'm a Transportation Engineering graduate student at
-[Arizona State University (ASU)](https://www.asu.edu/), combining technical
-expertise in GIS and transportation engineering with a passion for creative design.
-I'm working as a Research Assistant at ASU's School of Earth and Space
-Exploration.
+I strive to understand the World within and around me. 
 
-I received my Bachelor in Civil Engineering from
-[National Institute of Technology, Tiruchirappalli (NIT-T)](https://www.nitt.edu/)
-in 2023. I previously held a research position at
-Centre of Excellence for Road Safety (CoERS).
-I'm interested in exploring the potential of AI in Transportation.
+As a **scientist**, I use birds, mainly shorebirds, to explore 
+- <a href='https://www.nature.com/articles/s41598-019-41223-z'>rhythms of parental care</a> and <a href='https://doi.org/10.3389/fevo.2019.00093'>how such rhythms emerge</a>, 
+-  <a href='https://www.nature.com/articles/nature20563'>within- and between-species differences in rhythmicities</a> and what may drive such differences, as well as
+- <a href='https://onlinelibrary.wiley.com/doi/full/10.1111/ele.13662'>distribution and evolution of traits across the globe</a>
 
-### 🔬 Research Interests
+**Currently**, I am investigating global differences in uniparental incubation of shorebirds, sperm trait differences in three genetically distinct morphs in the ruff, biorhythms of red knots and drivers of global variation in the song of songbirds.  
 
-- Traffic Modelling
-- Intelligent Transportation Systems
-- Automated Transportation Solutions
-- Geospatial Analysis
+I am a **postdoc** at the [Max Planck Institute for Biological Intelligence](https://www.bi.mpg.de/en) and [Czech University of Life Sciences Prague](https://www.czu.cz/en) and **collaborate** with [scientists and institutions across the globe](https://doi.org/10.1126/science.aaw8529). 
+
+I am a regular contributor to <a href='https://www.inaturalist.org/people/1583651'>iNaturalist</a>. 
