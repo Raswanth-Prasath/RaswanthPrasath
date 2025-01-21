@@ -23,7 +23,7 @@ Exploration.
 I received my Bachelor in Civil Engineering from
 [National Institute of Technology, Tiruchirappalli (NIT-T)](https://www.nitt.edu/)
 in 2023. I previously held a research position at
-[Centre of Excellence for Road Safety (CoERS)](https://ed.iitm.ac.in/~vb/rbg).
+Centre of Excellence for Road Safety (CoERS).
 I'm interested in exploring the potential of AI in Transportation.
 
 ### 🔬 Research Interests
