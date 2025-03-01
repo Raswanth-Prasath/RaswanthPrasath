@@ -1,32 +1,32 @@
 import Image from "next/image";
 import {
-  Accessibility,
-  AppWindow,
-  Chrome,
-  Globe,
-  MonitorSmartphone,
-  TabletIcon,
+  Car,
+  LineChart,
+  Map,
+  Building2,
+  FileCode,
+  Database,
 } from "lucide-react";
 import MacImg from "../../assets/images/mac-ondesk.jpg";
 
 const EXPERTISE_LIST = [
-  { id: 1, title: "Web Accessibility", icon: <Accessibility /> },
-  { id: 2, title: "Progressive Web App", icon: <TabletIcon /> },
-  { id: 3, title: "Browser Extension Development", icon: <Chrome /> },
+  { id: 1, title: "Traffic Modeling & Simulation", icon: <Car /> },
+  { id: 2, title: "GIS & Spatial Analysis", icon: <Map /> },
+  { id: 3, title: "Data Science & Analytics", icon: <LineChart /> },
   {
     id: 4,
-    title: "Mobile First Responsive Design",
-    icon: <MonitorSmartphone />,
+    title: "Infrastructure Planning",
+    icon: <Building2 />,
   },
-  { id: 5, title: "Application Programming Interface", icon: <AppWindow /> },
-  { id: 6, title: "Content Management System", icon: <Globe /> },
+  { id: 5, title: "Python Programming", icon: <FileCode /> },
+  { id: 6, title: "Transportation Data Management", icon: <Database /> },
 ];
 
 export const Expertise: React.FC = () => {
   return (
     <div className="py-8">
       <h2 className="font-CooperHewittMedium text-[#131313] dark:text-white text-left tracking-tight lg:text-3xl md:text-2xl text-lg">
-        Industry Knowledge
+        Technical Expertise
       </h2>
 
       <div className="max-w-7xl">
@@ -46,8 +46,7 @@ export const Expertise: React.FC = () => {
 
           <div className="lg:col-span-4">
             <p className="text-base md:text-lg font-normal text-gray-700 dark:text-gray-400">
-              Proficient in a range of web technologies and software development
-              methodologies.
+              Skilled in transportation engineering technologies and methodologies, combining technical expertise with practical problem-solving.
             </p>
 
             <hr className="mt-4 bg-gray-300 dark:border-gray-800 sm:mt-10" />

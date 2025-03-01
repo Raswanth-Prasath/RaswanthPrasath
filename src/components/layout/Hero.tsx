@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Linkedin, Github, Dribbble } from "lucide-react";
-import { SiHashnode, SiX } from "react-icons/si";
+import { ArrowRight, Linkedin, Github, Map } from "lucide-react";
+import { SiResearchgate, SiOrcid } from "react-icons/si";
 import { motion } from "motion/react";
 import ImageWebp from "../../assets/images/profile-photo.webp";
 import ImageJpg from "../../assets/images/profile-photo.jpg";
@@ -51,49 +51,49 @@ const Hero: React.FC = () => {
 
       <div className="text-center max-w-3xl space-y-2">
         <h1 className="font-Bitform font-bold text-2xl md:text-3xl lg:text-5xl text-center">
-          Frontend Engineer, Designer <br /> & Technical Writer
+          Transportation Engineer, GIS Specialist <br /> & Data Analyst
         </h1>
         <p className="italic text-base md:text-lg md:leading-7 leading-6 text-gray-500 dark:text-gray-400">
-          With over 4 years of professional experience in crafting responsive
-          user interfaces that drive meaningful digital experiences.
+          Leveraging technology and data to design intelligent transportation systems 
+          that improve urban mobility, safety, and sustainability.
         </p>
       </div>
 
       <div className="flex items-center justify-center md:space-x-6 space-x-4 my-4">
         <Link
-          href="https://twitter.com/frankiefab100"
-          className="text-gray-600 dark:text-gray-300 dark:hover:text-blue-500 hover:text-blue-500 transition-colors"
-        >
-          <SiX className="md:h-6 md:w-6 h-5 w-5" />
-          <span className="sr-only">Twitter/X</span>
-        </Link>
-        <Link
-          href="https://linkedin.com/in/frankiefab100"
+          href="https://linkedin.com/in/raswanthprasath"
           className="text-gray-600 dark:text-gray-300 dark:hover:text-blue-500 hover:text-blue-500 transition-colors"
         >
           <Linkedin className="md:h-6 md:w-6 h-5 w-5" />
           <span className="sr-only">LinkedIn</span>
         </Link>
         <Link
-          href="https://github.com/frankiefab100"
+          href="https://github.com"
           className="text-gray-600 dark:text-gray-300 dark:hover:text-blue-500 hover:text-blue-500 transition-colors"
         >
           <Github className="md:h-6 md:w-6 h-5 w-5" />
           <span className="sr-only">GitHub</span>
         </Link>
         <Link
-          href="https://frankiefab.hashnode.dev"
+          href="https://researchgate.net"
           className="text-gray-600 dark:text-gray-300 dark:hover:text-blue-500 hover:text-blue-500 transition-colors"
         >
-          <SiHashnode className="md:h-6 md:w-6 h-5 w-5" />
-          <span className="sr-only">Hashnode</span>
+          <SiResearchgate className="md:h-6 md:w-6 h-5 w-5" />
+          <span className="sr-only">ResearchGate</span>
         </Link>
         <Link
-          href="https://dribbble.com/frankiefab100"
+          href="https://orcid.org"
           className="text-gray-600 dark:text-gray-300 dark:hover:text-blue-500 hover:text-blue-500 transition-colors"
         >
-          <Dribbble className="md:h-6 md:w-6 h-5 w-5" />
-          <span className="sr-only">Dribbble</span>
+          <SiOrcid className="md:h-6 md:w-6 h-5 w-5" />
+          <span className="sr-only">ORCID</span>
+        </Link>
+        <Link
+          href="https://sites.google.com/view/raswanth-prasath"
+          className="text-gray-600 dark:text-gray-300 dark:hover:text-blue-500 hover:text-blue-500 transition-colors"
+        >
+          <Map className="md:h-6 md:w-6 h-5 w-5" />
+          <span className="sr-only">Portfolio</span>
         </Link>
       </div>
 
@@ -103,7 +103,7 @@ const Hero: React.FC = () => {
           <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-50 dark:bg-slate-950 px-6 text-sm font-medium text-white backdrop-blur-3xl">
             <div className="relative flex items-center space-x-2">
               <span className="text-gray-700 dark:text-white font-medium">
-                Available for Work
+                Available for Projects
               </span>
               <span className="text-gray-500 dark:text-gray-400 flex items-center">
                 <ArrowRight className="ml-1 h-4 w-4" />

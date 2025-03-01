@@ -111,7 +111,7 @@ const Header: React.FC = () => {
                 )}
               </button>
               <Link
-                href="https://docs.google.com/document/d/18bITuQ5MpASxTJJxvoNtdDgmC6o3pf1o451wi0Tgs6k"
+                href="https://drive.google.com/file/d/19wiGGQGi0fYjscbmMGSSa2ELtEXB97hG/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="button"

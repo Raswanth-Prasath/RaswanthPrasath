@@ -1,24 +1,23 @@
-
-import { Code2, Palette, ScrollText } from "lucide-react";
+import { Car, LineChart, Map } from "lucide-react";
 import { ServicesProps } from "../../types/types";
 
 export const SERVICES: ServicesProps[] = [
     {
-        icon: Code2,
-        title: "Web Development",
+        icon: Car,
+        title: "Traffic Engineering",
         description:
-            "I specialize in developing user-friendly web applications and websites with modern frameworks, delivering high-quality code that meets design specifications.",
+            "I conduct comprehensive traffic impact studies, transportation demand management, and parking analysis, using specialized software like Synchro and VISSIM to optimize traffic flow and safety.",
     },
     {
-        icon: Palette,
-        title: "Visual Design",
+        icon: Map,
+        title: "Geospatial Analysis",
         description:
-            "I create distinctive social media and marketing materials, that align with your brand story and values, ensuring you stand out in a competitive market.",
+            "I develop custom GIS solutions and plugins that integrate complex spatial datasets to visualize and analyze transportation networks, helping stakeholders make informed infrastructure decisions.",
     },
     {
-        icon: ScrollText,
-        title: "Technical Writing",
+        icon: LineChart,
+        title: "Transportation Data Science",
         description:
-            "I simplify complex instructional materials, write blog posts, and how-to guides that enhance users' understanding and experience with your products or services.",
+            "I leverage Python and data analysis tools to extract insights from large transportation datasets, identifying patterns and trends that drive evidence-based planning and design solutions.",
     },
 ];
