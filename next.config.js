@@ -1,18 +1,59 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  async redirects() {
+    return [
+      {
+        source: "/", // The root path
+        has: [
+          {
+            type: "host",
+            value: "frankiefab.vercel.app",
+          },
+        ],
+        destination: "https://frankiefab.com",
+        permanent: true, // 301 redirect
+      },
+    ];
+  },
 
-module.exports = {
+  async rewrites() {
+    return [
+      {
+        source: "/api/:path*",
+        destination: `${process.env.STRAPI_URL || 'http://localhost:1337'}/api/:path*`,
+      },
+    ];
+  },
+
   images: {
+    domains: ["cdn.hashnode.com"],
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "cdn.sanity.io",
-        port: "",
+        protocol: "http",
+        hostname: "localhost",
+        port: "1337",
+        pathname: "/uploads/**/*",
       },
-      { hostname: "icons.duckduckgo.com" },
-      { hostname: "res.cloudinary.com" },
-      { hostname: "www.google.com" },
-      { hostname: "images.unsplash.com" },
+      {
+        protocol: "https",
+        hostname: "cdn.hashnode.com",
+        pathname: "/res/hashnode/image/**",
+      },
+      {
+        protocol: "https",
+        hostname: "avatars.githubusercontent.com",
+      },
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+      },
+      {
+        protocol: "https",
+        hostname: process.env.STRAPI_URL ? new URL(process.env.STRAPI_URL).hostname : "localhost",
+        pathname: "/uploads/**/*",
+      },
     ],
   },
 };
+
+module.exports = nextConfig;

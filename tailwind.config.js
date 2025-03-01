@@ -2,42 +2,40 @@
 module.exports = {
   darkMode: "class",
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-      fontFamily: {
-        incognito: ["var(--incognito)"],
-        inter: ["var(--inter)"],
-      },
       colors: {
-        "primary-color": "#33E092",
-        "secondary-color": "#0CCE6B",
-        "tertiary-color": "#16a34a",
-        "primary-bg": "rgba(39, 39, 43, 0.4)",
-        "secondary-bg": "rgba(250, 250, 250, 0.4)",
+        primary: "#FF4088",
+        background: "#000",
+      },
+      fontFamily: {
+        Bitform: ["Bitform"],
+        CooperHewittMedium: ["CooperHewittMedium"],
+        inter: ["Inter", "sans-serif"],
       },
       boxShadow: {
-        "line-light": "rgba(17, 17, 26, 0.1) 0px 1px 0px",
-        "line-dark": "rgb(29, 29, 32) 0px 1px 0px",
-      },
-      gridTemplateColumns: {
-        custom: "1.2fr 1fr",
-      },
-      gridTemplateRows: {
-        fit: "min-content 0fr",
-        full: "min-content 1fr",
+        custom: "-14px 10px 44px -21px rgba(0, 0, 0, 0.24)",
       },
       backgroundImage: {
-        noise:
-          "url('https://res.cloudinary.com/victoreke/image/upload/v1691779257/victoreke/noise.png')",
+        noise: "url('/images/background-noise.webp')",
       },
-      backgroundPosition: {
-        zero: "0 0",
+      animation: {
+        ["infinite-slider"]: "infiniteSlider 20s linear infinite",
+      },
+      keyframes: {
+        infiniteSlider: {
+          "0%": { transform: "translateX(0)" },
+          "100%": {
+            transform: "translateX(calc(-250px * 5))",
+          },
+        },
       },
     },
   },
+
   plugins: [],
 };
